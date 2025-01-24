@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Débutant en Python, JavaScript, PHP</title>
+    <title>Quiz en Python, JavaScript, PHP - NIVEAU 2</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -121,171 +121,171 @@
 <body>
     <div class="container">
         <h1>Quiz : Python, JavaScript, PHP</h1>
+        <h1>NIVEAU 2</h1>
 
-        <div id="timer">Temps restant : 15:00</div>
+        <div id="timer">Temps restant : 20:00</div>
 
         <form id="quizForm">
             <!-- Python Section -->
             <div class="section">
                 <h2>Python</h2>
 
-<div class="question">
-    <p>1. Comment afficher "Hello, World!" en Python, tout en utilisant une méthode qui répète chaque lettre deux fois ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q1" value="A"> A. print('HHeelllloo,,  WWoorrlldd!!') </li>
-        <li><input type="radio" name="q1" value="B"> B. print('Hello, World!' * 2)</li>
-        <li><input type="radio" name="q1" value="C"> C. print(''.join([char * 2 for char in 'Hello, World!']))</li>
-        <li><input type="radio" name="q1" value="D"> D. Répète chaque lettre à haute voix pendant que tu écris</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>1. Comment afficher les nombres pairs entre 1 et 10 en Python ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q1" value="A"> A. print([x for x in range(1, 11) if x % 2 == 0])</li>
+                <li><input type="radio" name="q1" value="B"> B. print(range(2, 10, 2))</li>
+                <li><input type="radio" name="q1" value="C"> C. for x in range(1, 11): print(x * 2)</li>
+                <li><input type="radio" name="q1" value="D"> D. Répète les nombres pairs à haute voix</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>2. Comment déclare-t-on une fonction Python qui retourne la somme des carrés des éléments d'une liste donnée ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q2" value="A"> A. def somme_carres(liste): return sum([x**2 for x in liste])</li>
-        <li><input type="radio" name="q2" value="B"> B. def somme_carres(liste): return sum(liste) ** 2</li>
-        <li><input type="radio" name="q2" value="C"> C. def somme_carres(liste): print(sum([x * 2 for x in liste]))</li>
-        <li><input type="radio" name="q2" value="D"> D. Demande à un mathématicien d'écrire la formule pour toi</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>2. Quelle est la sortie de ce code Python : <code>if 5 > 3: print("Oui")</code> ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q2" value="A"> A. Rien</li>
+                <li><input type="radio" name="q2" value="B"> B. Oui</li>
+                <li><input type="radio" name="q2" value="C"> C. Erreur</li>
+                <li><input type="radio" name="q2" value="D"> D. Non</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>3. Comment créer une liste en Python contenant les carrés des nombres de 1 à 10, mais uniquement pour ceux divisibles par 3 ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q3" value="A"> A. ma_liste = [x**2 for x in range(3, 10)]</li>
-        <li><input type="radio" name="q3" value="B"> B. ma_liste = [x**2 for x in range(1, 11) if x % 3 == 0] </li>
-        <li><input type="radio" name="q3" value="C"> C. ma_liste = list(range(1, 11, 3))</li>
-        <li><input type="radio" name="q3" value="D"> D. Fais un sondage pour connaître les préférences de Python</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>3. Comment utiliser une boucle <code>while</code> pour afficher les nombres de 1 à 5 ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q3" value="A"> A. while x < 5: print(x)</li>
+                <li><input type="radio" name="q3" value="B"> B. x = 1; while x <= 5: print(x); x += 1</li>
+                <li><input type="radio" name="q3" value="C"> C. x = 5; while x >= 1: print(x); x -= 1</li>
+                <li><input type="radio" name="q3" value="D"> D. Compte sur tes doigts</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>4. Quelle est la bonne manière d’importer toutes les fonctions d’un module Python tout en attribuant un alias au module ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q4" value="A"> A. import module as alias</li>
-        <li><input type="radio" name="q4" value="B"> B. from module import *</li>
-        <li><input type="radio" name="q4" value="C"> C. from module import * as alias</li>
-        <li><input type="radio" name="q4" value="D"> D. Télécharge le module, grave-le sur un CD et renomme le CD</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>4. Que fait ce code Python ? <code>for x in range(3): print(x)</code></p>
+            <ul class="options">
+                <li><input type="radio" name="q4" value="A"> A. Affiche 0, 1, 2</li>
+                <li><input type="radio" name="q4" value="B"> B. Affiche 1, 2, 3</li>
+                <li><input type="radio" name="q4" value="C"> C. Affiche 3, 2, 1</li>
+                <li><input type="radio" name="q4" value="D"> D. Rien</li>
+            </ul>
+        </div>
+    </div>
 
-            </div>
+    <!-- JavaScript Section -->
+    <div class="section">
+        <h2>JavaScript</h2>
 
-            <!-- JavaScript Section -->
-            <div class="section">
-                <h2>JavaScript</h2>
+        <div class="question">
+            <p>1. Comment vérifier si un nombre est pair en JavaScript ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q5" value="A"> A. if (num % 2 === 0)</li>
+                <li><input type="radio" name="q5" value="B"> B. if (num / 2)</li>
+                <li><input type="radio" name="q5" value="C"> C. if (num * 2 === 0)</li>
+                <li><input type="radio" name="q5" value="D"> D. Demande à un calculateur humain</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>1. Comment afficher "Hello, World!" en JavaScript, mais en inversant les caractères de la chaîne avant de l’afficher ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q5" value="A"> A. console.log([...‘Hello, World!’].reverse().join(''))</li>
-        <li><input type="radio" name="q5" value="B"> B. console.log('Hello, World!'.split('').reverse().join(''))</li>
-        <li><input type="radio" name="q5" value="C"> C. alert('Hello, World!') // inversé automatiquement</li>
-        <li><input type="radio" name="q5" value="D"> D. Appelle un magicien qui renverse les chaînes pour toi</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>2. Quelle est la sortie de ce code ? <code>for (let i = 0; i < 3; i++) { console.log(i); }</code></p>
+            <ul class="options">
+                <li><input type="radio" name="q6" value="A"> A. 0, 1, 2</li>
+                <li><input type="radio" name="q6" value="B"> B. 1, 2, 3</li>
+                <li><input type="radio" name="q6" value="C"> C. 3, 2, 1</li>
+                <li><input type="radio" name="q6" value="D"> D. Rien</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>2. Comment déclarer une constante en JavaScript tout en s’assurant qu’elle ne puisse pas être modifiée ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q6" value="A"> A. let PI = Object.freeze(3.14);</li>
-        <li><input type="radio" name="q6" value="B"> B. const PI = 3.14;</li>
-        <li><input type="radio" name="q6" value="C"> C. var PI = 3.14;</li>
-        <li><input type="radio" name="q6" value="D"> D. Gravée sur une pierre antique, immuable pour toujours</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>3. Comment utiliser une boucle <code>while</code> en JavaScript pour afficher les nombres de 1 à 5 ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q7" value="A"> A. let x = 1; while (x <= 5) { console.log(x); x++; }</li>
+                <li><input type="radio" name="q7" value="B"> B. while (x > 5) { console.log(x); }</li>
+                <li><input type="radio" name="q7" value="C"> C. let x = 5; while (x >= 1) { console.log(x); x--; }</li>
+                <li><input type="radio" name="q7" value="D"> D. Demande à un programmeur professionnel</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>3. Comment définir une fonction fléchée en JavaScript pour doubler chaque élément d’un tableau donné ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q7" value="A"> A. function doubler(arr) { return arr.map(x => x * 2); }</li>
-        <li><input type="radio" name="q7" value="B"> B. const doubler = (arr) => arr.map(x => x * 2);</li>
-        <li><input type="radio" name="q7" value="C"> C. fun doubler(arr) => arr.map(x -> x * 2);</li>
-        <li><input type="radio" name="q7" value="D"> D. Crée un miroir magique pour doubler les éléments</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>4. Quelle est la bonne syntaxe pour une condition JavaScript ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q8" value="A"> A. if (x > 0) { ... }</li>
+                <li><input type="radio" name="q8" value="B"> B. if x > 0: ...</li>
+                <li><input type="radio" name="q8" value="C"> C. if x > 0 { ... }</li>
+                <li><input type="radio" name="q8" value="D"> D. Si x est positif, continue</li>
+            </ul>
+        </div>
+    </div>
 
-<div class="question">
-    <p>4. Quelle est la principale différence entre <code>Object.freeze()</code> et <code>Object.seal()</code> en JavaScript ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q8" value="A"> A. seal bloque tout, freeze ne fait rien</li>
-        <li><input type="radio" name="q8" value="B"> B. freeze empêche tout changement, seal empêche l’ajout/suppression de propriétés</li>
-        <li><input type="radio" name="q8" value="C"> C. Les deux font exactement la même chose</li>
-        <li><input type="radio" name="q8" value="D"> D. freeze fait geler les objets littéralement, seal les enferme dans un coffre</li>
-    </ul>
-</div>
-            </div>
-            <!-- PHP Section -->
-            <div class="section">
-                <h2>PHP</h2>
+    <!-- PHP Section -->
+    <div class="section">
+        <h2>PHP</h2>
 
-<div class="question">
-    <p>1. Comment afficher "Hello, World!" en PHP avec une balise HTML h1 ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q9" value="A"> A. &lt;?php echo '&lt;h1&gt;Hello, World!&lt;/h1&gt;'; ?&gt;</li>
-        <li><input type="radio" name="q9" value="B"> B. &lt;?php print '&lt;h1&gt;Hello, World!&lt;/h1&gt;'; ?&gt;</li>
-        <li><input type="radio" name="q9" value="C"> C. &lt;?php echo h1('Hello, World!'); ?&gt;</li>
-        <li><input type="radio" name="q9" value="D"> D. Demande au navigateur de l'afficher directement</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>1. Comment utiliser une boucle <code>foreach</code> pour parcourir un tableau en PHP ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q9" value="A"> A. foreach ($array as $value) { echo $value; }</li>
+                <li><input type="radio" name="q9" value="B"> B. foreach ($array in $value) { print $value; }</li>
+                <li><input type="radio" name="q9" value="C"> C. for ($i = 0; $i < count($array); $i++) { echo $array[$i]; }</li>
+                <li><input type="radio" name="q9" value="D"> D. Passe chaque élément au serveur</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>2. Comment déclarer une constante en PHP qui ne peut pas être redéfinie ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q10" value="A"> A. define('PI', 3.14);</li>
-        <li><input type="radio" name="q10" value="B"> B. const PI = 3.14;</li>
-        <li><input type="radio" name="q10" value="C"> C. $PI = 3.14;</li>
-        <li><input type="radio" name="q10" value="D"> D. Écris-la sur un parchemin sacré !</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>2. Quelle est la sortie de ce code PHP ? <code>if (5 > 3) { echo "Oui"; }</code></p>
+            <ul class="options">
+                <li><input type="radio" name="q10" value="A"> A. Oui</li>
+                <li><input type="radio" name="q10" value="B"> B. Non</li>
+                <li><input type="radio" name="q10" value="C"> C. Rien</li>
+                <li><input type="radio" name="q10" value="D"> D. Peut-être</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>3. Comment définir une fonction en PHP qui retourne la somme des éléments d’un tableau ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q11" value="A"> A. function somme($array) { return sum($array); }</li>
-        <li><input type="radio" name="q11" value="B"> B. function somme($array) { return array_sum($array); }</li>
-        <li><input type="radio" name="q11" value="C"> C. def somme($array) { return sum($array); }</li>
-        <li><input type="radio" name="q11" value="D"> D. Fais appel à un comptable pour additionner !</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>3. Comment afficher les nombres de 1 à 5 en PHP en utilisant une boucle <code>for</code> ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q11" value="A"> A. for ($i = 1; $i <= 5; $i++) { echo $i; }</li>
+                <li><input type="radio" name="q11" value="B"> B. for ($i = 5; $i > 0; $i--) { echo $i; }</li>
+                <li><input type="radio" name="q11" value="C"> C. foreach (range(1, 5) as $i) { echo $i; }</li>
+                <li><input type="radio" name="q11" value="D"> D. Demande au serveur de compter</li>
+            </ul>
+        </div>
 
-<div class="question">
-    <p>4. Quelle est la différence entre un tableau indexé et un tableau associatif en PHP ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q12" value="A"> A. Les tableaux indexés utilisent des chaînes comme clés, les tableaux associatifs utilisent des entiers</li>
-        <li><input type="radio" name="q12" value="B"> B. Les tableaux indexés utilisent des clés numériques, les tableaux associatifs utilisent des clés personnalisées</li>
-        <li><input type="radio" name="q12" value="C"> C. Il n'y a pas de différence entre les deux</li>
-        <li><input type="radio" name="q12" value="D"> D. Les tableaux indexés sont plus rapides car ils ont moins de personnalité</li>
-    </ul>
-</div>
-            </div>
-            <div class="section">
-                <h2>Questions Avancées</h2>
+        <div class="question">
+            <p>4. Quelle est la bonne syntaxe pour une condition PHP ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q12" value="A"> A. if ($x > 0) { ... }</li>
+                <li><input type="radio" name="q12" value="B"> B. if x > 0 { ... }</li>
+                <li><input type="radio" name="q12" value="C"> C. if x > 0: ...</li>
+                <li><input type="radio" name="q12" value="D"> D. Si x est positif, continue</li>
+            </ul>
+        </div>
+    </div>
 
-<div class="question">
-    <p>1. Vous travaillez sur un projet web nécessitant des animations fluides, une interaction utilisateur complexe, et une prise en charge des événements en temps réel. Quel langage ou bibliothèque devriez-vous privilégier ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q13" value="A"> A. JavaScript avec une bibliothèque comme GSAP ou Three.js</li>
-        <li><input type="radio" name="q13" value="B"> B. Python avec Flask pour les animations</li>
-        <li><input type="radio" name="q13" value="C"> C. PHP intégré avec HTML</li>
-        <li><input type="radio" name="q13" value="D"> D. Créez un théâtre de marionnettes pour des animations artisanales !</li>
-    </ul>
-</div>
+    <div class="section">
+        <h2>Questions Avancées</h2>
 
-<div class="question">
-    <p>2. Vous devez développer un script pour analyser de grandes quantités de données, intégrer des modèles d'apprentissage automatique et visualiser les résultats. Quelle technologie choisiriez-vous ?</p>
-    <ul class="options">
-        <li><input type="radio" name="q14" value="A"> A. Python avec des bibliothèques comme NumPy, Pandas, et Matplotlib</li>
-        <li><input type="radio" name="q14" value="B"> B. JavaScript avec Node.js pour le traitement des données</li>
-        <li><input type="radio" name="q14" value="C"> C. PHP avec MySQL pour les calculs complexes</li>
-        <li><input type="radio" name="q14" value="D"> D. Prenez un crayon et du papier millimétré pour tracer manuellement !</li>
-    </ul>
-</div>
+        <div class="question">
+            <p>1. Comment afficher les nombres de 1 à 10 mais en sautant les multiples de 3 dans n'importe quel langage ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q13" value="A"> A. Utilisez une boucle et une condition pour sauter les multiples</li>
+                <li><input type="radio" name="q13" value="B"> B. Affichez tous les nombres puis supprimez manuellement les multiples</li>
+                <li><input type="radio" name="q13" value="C"> C. Multipliez tous les nombres par 2 pour éviter les multiples de 3</li>
+                <li><input type="radio" name="q13" value="D"> D. Ignorez cette question</li>
+            </ul>
+        </div>
 
-            </div>
-            <button type="submit">Soumettre</button>
-        </form>
-
+        <div class="question">
+            <p>2. Comment répéter une action 10 fois dans n'importe quel langage ?</p>
+            <ul class="options">
+                <li><input type="radio" name="q14" value="A"> A. Utilisez une boucle <code>for</code> ou <code>while</code></li>
+                <li><input type="radio" name="q14" value="B"> B. Copiez-collez l'action 10 fois</li>
+                <li><input type="radio" name="q14" value="C"> C. Utilisez une fonction qui s'appelle elle-même 10 fois</li>
+                <li><input type="radio" name="q14" value="D"> D. Répétez manuellement en comptant sur vos doigts</li>
+            </ul>
+        </div>
+    </div>
+    <button type="submit">Soumettre</button>
+</form>
         <div id="score"></div>
     </div>
 
@@ -320,18 +320,18 @@
 
     let score = 0;
     const correctAnswers = {
-        q1: 'C', // Python Hello World
-        q2: 'A', // Python Function
+        q1: 'A', // Python Hello World
+        q2: 'B', // Python Function
         q3: 'B', // Python List
         q4: 'A', // Python Module
-        q5: 'B', // JS Hello World
-        q6: 'B', // JS Variable
-        q7: 'B', // JS Function
-        q8: 'B', // JS == vs ===
+        q5: 'A', // JS Hello World
+        q6: 'A', // JS Variable
+        q7: 'A', // JS Function
+        q8: 'A', // JS == vs ===
         q9: 'A', // PHP Hello World
         q10: 'A', // PHP Variable
-        q11: 'B', // PHP Function
-        q12: 'B',  // PHP Array access
+        q11: 'A', // PHP Function
+        q12: 'A',  // PHP Array access
         q13: 'A',
         q14: 'A'
     };
